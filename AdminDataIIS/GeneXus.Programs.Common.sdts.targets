@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup>
+</ItemGroup>
+
+<ItemGroup>
+ 	<Compile Include="$(WebDirectory)\type_SdtContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData_ChangedFilter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtFileUploadData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtGoogleChart.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtGoogleChart_Series.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtGridState.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtGridState_FilterValue.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtLinkList_LinkItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtProgramNames_ProgramName.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtPropiedades.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSdtSecurity.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTUsuArea_SDTUsuAreaItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_Sdtsdt_Reclutador_sdt_ReclutadorItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtTabOptions_TabOptionsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtTransactionContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtTransactionContext_Attribute.cs" />
+
+</ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.cambiapwd_services,cambiapwd" %>

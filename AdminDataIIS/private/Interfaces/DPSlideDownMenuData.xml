@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="970da3de-de81-4682-a7ef-da3201d323a2" name="DPSlideDownMenuData" description="DPSlide Down Menu Data" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="SlideDownMenuData" description="Slide Down Menu Data" collection="true">
+        <Fields>
+          <Field name="ParentID" description="Parent ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>4</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="ParentTitle" description="Parent Title">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>20</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="ParentDescription" description="Parent Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Sections" description="Sections" collection="true">
+            <Fields>
+              <Field name="SectionID" description="Section ID">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Numeric</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>4</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="SectionTitle" description="Section Title">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="SectionDescription" description="Section Description">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>40</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="SectionURL" description="Section URL">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>VarChar</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>100</Value>
+                  </Property>
+                </Properties>
+              </Field>
+            </Fields>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

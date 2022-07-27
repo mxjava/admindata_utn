@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="WorkWithDevicesUsuarios_Usuarios_Section_UsuariosVacante1_Grid1">
+  <Table name="Vacantes" />
+  <Table name="VacantesUsuariosVacante" />
+</Dependencies>

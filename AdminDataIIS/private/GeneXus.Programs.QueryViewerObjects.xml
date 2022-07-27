@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="DPSlideDownMenuData" id="1" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="Qry_Usuarios" id="1" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="Qry_Vacantes" id="2" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeChartColumn3D" xmlns="qv" />
+  </Object>
+</Objects>

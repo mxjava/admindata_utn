@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.pr_movil_reccontra_services,pr_movil_reccontra" %>

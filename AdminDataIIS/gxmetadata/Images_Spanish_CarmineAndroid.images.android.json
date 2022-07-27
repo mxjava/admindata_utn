@@ -1,0 +1,72 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "Spanish",
+    "Theme" : "CarmineAndroid",
+    "Images" : [ { 
+        "Name" : "ico_Usuario",
+        "Type" : "I",
+        "Guid" : "1ba33e8a-6455-48d7-9718-dc189dad05b3",
+        "Location" : "ico_Usuario.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "ico_recContra",
+        "Type" : "I",
+        "Guid" : "82bcc6ca-c4b2-412c-8a3a-40cf0a136f64",
+        "Location" : "ico_recContra.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "ico_registro",
+        "Type" : "I",
+        "Guid" : "5cf22998-87f9-4e3f-ae0a-b0ef576db9d7",
+        "Location" : "ico_registro.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Guardar",
+        "Type" : "I",
+        "Guid" : "d0e5d738-d4cd-4148-98b7-bf2166bc1ffa",
+        "Location" : "Guardar.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "regresar",
+        "Type" : "I",
+        "Guid" : "93b2d7e5-9a13-41d9-baee-ede2124078b4",
+        "Location" : "regresar.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Adjuntar",
+        "Type" : "I",
+        "Guid" : "5046a98d-ab11-4d0f-b902-e472abde2a26",
+        "Location" : "Adjuntar.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineAndroid/Group.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Mov_Contrase_a_48",
+        "Type" : "I",
+        "Guid" : "a0a73bb3-d18b-4ec5-868e-ce1b7f804177",
+        "Location" : "Mov_Contrase_a_48.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Mov_Agregar_64",
+        "Type" : "I",
+        "Guid" : "f9cd66c5-8513-4ce3-af01-02c90250f5af",
+        "Location" : "Mov_Agregar_64.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "mov_Usuarios_grupo_64",
+        "Type" : "I",
+        "Guid" : "361f4055-aedb-490f-825a-a0b2af6d39ba",
+        "Location" : "mov_Usuarios_grupo_64.png",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "admindatalogofondo_removebg_preview",
+        "Type" : "I",
+        "Guid" : "7092c041-c11e-4ed0-a1e0-8d51474fb9d7",
+        "Location" : "admindatalogofondo_removebg_preview.png",
+        "FlipsForRTL" : false
+    } ]
+}

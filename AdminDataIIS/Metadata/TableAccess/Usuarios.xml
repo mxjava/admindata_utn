@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="82ed4099-c7b1-4739-9062-d875e1f8f0ff">
+  <Table name="Usuarios" />
+  <Table name="bitAcces" />
+  <Table name="HistPwd" />
+  <Table name="Roles" />
+  <Table name="Intentos" />
+  <Table name="PerfilesUsuariosPerfil" />
+  <Table name="VacantesUsuariosVacante" />
+  <Table name="Numerador" />
+  <Table name="Security" />
+</Dependencies>

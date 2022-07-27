@@ -1,0 +1,139 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/css/main.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/animate/animate.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/css-hamburgers/hamburgers.min.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/select2/select2.min.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/css/util.css">
+<link rel="stylesheet" href="{{gxTpr_rutakb}}{{rutakb}}LibLogin/css/main.css">
+<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="{{gxTpr_image}}{{image}}" alt="IMG">
+				</div>
+				<div class="login100-form validate-form">
+					<span class="login100-form-title">
+						{{gxTpr_titulo}}{{titulo}}
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "{{gxTpr_erroremail}}{{erroremail}}">
+						{{gxTpr_inputusuario}}{{inputusuario}}
+							<div data-slot="addusuarioin2" data-parent="{{ContainerName}}"></div>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "{{gxTpr_errorpassword}}{{errorpassword}}">
+						{{gxTpr_inputpassword}}{{inputpassword}}
+							<div data-slot="addpasswordin2" data-parent="{{ContainerName}}"></div>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="text-center p-t-8 {{gxTpr_alertamsg}}{{alertamsg}}">
+						<a class="txtred" href="#">
+							{{gxTpr_textomsgalert}}{{textomsgalert}}
+							<i class="fa fa-exclamation-triangle m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="login100-form-btn"  data-event="click"  id="BTNLOGIN">
+							{{gxTpr_textbutton}}{{textbutton}}
+						</div>
+					</div>
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							{{gxTpr_forgot1}}{{forgot1}}
+						</span>
+						<a class="txt2" href="{{gxTpr_linkforgot}}{{linkforgot}}">
+							{{gxTpr_forgot2}}{{forgot2}}
+						</a>
+					</div>
+					<div class="text-center p-t-13">
+						<a class="txt2" href="{{gxTpr_linkcreateaccount}}{{linkcreateaccount}}">
+							{{gxTpr_createaccount}}{{createaccount}}
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script > $(document).ready(function(){$('.js-tilt').tilt({scale: 1.1}) });</script>
+	<script type="text/javascript" src="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/jquery/jquery-3.2.1.min.js" data-gx-external-script=""></script>
+	<script type="text/javascript" src="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/bootstrap/js/popper.js" data-gx-external-script=""></script>
+	<script type="text/javascript" src="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/select2/select2.min.js" data-gx-external-script=""></script>
+	<script type="text/javascript" src="{{gxTpr_rutakb}}{{rutakb}}LibLogin/vendor/tilt/tilt.jquery.min.js" data-gx-external-script=""></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+    "use strict";
+
+    $('body').on('keydown', '#v{{gxTpr_varusuario}}{{varusuario}}', function(e) {
+        if (e.which == 9) {
+            e.preventDefault();
+            var input = $('#v{{gxTpr_varusuario}}{{varusuario}}');
+            var check = true;
+            for(var i=0; i<input.length; i++) {
+                if(validate(input[i]) == false){
+                    showValidate(input[i]);
+                    check=false;
+                }
+            }
+            return check;
+        }
+    });
+
+    $('body').on('keydown', '#v{{gxTpr_varpassword}}{{varpassword}}', function(e) {
+        if (e.which == 9) {
+            e.preventDefault();
+            var input = $('#v{{gxTpr_varpassword}}{{varpassword}}');
+            var check = true;
+            for(var i=0; i<input.length; i++) {
+                if(validate(input[i]) == false){
+                    showValidate(input[i]);
+                    check=false;
+                }
+            }
+            return check;
+        }
+    });
+
+    $('.validate-form .input100').each(function(){
+        $(this).focus(function(){
+           hideValidate(this);
+        });
+    });
+	
+	$("#BTNLOGIN").click(function(){
+       $('.js-tilt').tilt({scale: 1.1});
+    });
+	
+    function validate (input) {
+        if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+            if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                return false;
+            }
+        }
+        else {
+            if($(input).val().trim() == ''){
+                return false;
+            }
+        }
+    }
+
+    function showValidate(input) {
+        var thisAlert = $(input).parent().parent().parent().parent().parent().parent().parent();
+
+        $(thisAlert).addClass('alert-validate');
+    }
+
+    function hideValidate(input) {
+        var thisAlert = $(input).parent().parent().parent().parent().parent().parent().parent();
+		
+        $(thisAlert).removeClass('alert-validate');
+    }
+ 
+});
+</script>

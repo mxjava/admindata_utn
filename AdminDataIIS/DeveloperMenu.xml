@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus16/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Intentos</ObjName>
+      <ObjDesc>Intentos</ObjDesc>
+      <ObjLink>intentos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>bitAcces</ObjName>
+      <ObjDesc>Bitacora acceso</ObjDesc>
+      <ObjLink>bitacces.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>HistPwd</ObjName>
+      <ObjDesc>Historico de Contrasenas</ObjDesc>
+      <ObjLink>histpwd.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Numerador</ObjName>
+      <ObjDesc>Tabla de Numeradores</ObjDesc>
+      <ObjLink>numerador.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Security</ObjName>
+      <ObjDesc>Security</ObjDesc>
+      <ObjLink>security.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Home</ObjName>
+      <ObjDesc>Home</ObjDesc>
+      <ObjLink>home.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Login</ObjName>
+      <ObjDesc>Login</ObjDesc>
+      <ObjLink>login.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWUsuarios</ObjName>
+      <ObjDesc>Work With Alta Usuarios</ObjDesc>
+      <ObjLink>wwusuarios.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWParametros</ObjName>
+      <ObjDesc>Parametross</ObjDesc>
+      <ObjLink>wwparametros.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWmenInicio</ObjName>
+      <ObjDesc>Work With Tabla de mensajes de inicio</ObjDesc>
+      <ObjLink>wwmeninicio.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Acceso</ObjName>
+      <ObjDesc>Acceso</ObjDesc>
+      <ObjLink>acceso.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>CambioPwd</ObjName>
+      <ObjDesc>Cambio de Contrseña (Usuario)</ObjDesc>
+      <ObjLink>cambiopwd.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWRoles</ObjName>
+      <ObjDesc>Roles</ObjDesc>
+      <ObjLink>wwroles.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpRecupContra</ObjName>
+      <ObjDesc>Recupera Contraseña</ObjDesc>
+      <ObjLink>wprecupcontra.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Inicio</ObjName>
+      <ObjDesc>Inicio</ObjDesc>
+      <ObjLink>inicio.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Reclutamiento</ObjName>
+      <ObjDesc>reclutamiento</ObjDesc>
+      <ObjLink>reclutamiento.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWMenu</ObjName>
+      <ObjDesc>Menu</ObjDesc>
+      <ObjLink>wwmenu.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWVacantes</ObjName>
+      <ObjDesc>Work With Work With Vacantes</ObjDesc>
+      <ObjLink>wwvacantes.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WebPanel1</ObjName>
+      <ObjDesc>Web Panel1</ObjDesc>
+      <ObjLink>webpanel1.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpPostulacion</ObjName>
+      <ObjDesc>Postulaciones de Usuarios</ObjDesc>
+      <ObjLink>wppostulacion.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>AccesoBAK</ObjName>
+      <ObjDesc>Acceso BAK</ObjDesc>
+      <ObjLink>accesobak.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpEstadisticas</ObjName>
+      <ObjDesc>wpEstadisticas</ObjDesc>
+      <ObjLink>wpestadisticas.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>SinAcceso</ObjName>
+      <ObjDesc>SinAcceso</ObjDesc>
+      <ObjLink>sinacceso.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpInfGe</ObjName>
+      <ObjDesc>Informacion General</ObjDesc>
+      <ObjLink>wpinfge.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPerfiles</ObjName>
+      <ObjDesc>Perfiles</ObjDesc>
+      <ObjLink>wwperfiles.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpAltaUsuarios</ObjName>
+      <ObjDesc>wp Alta Usuarios</ObjDesc>
+      <ObjLink>wpaltausuarios.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpCandidatos</ObjName>
+      <ObjDesc>wp Candidatos</ObjDesc>
+      <ObjLink>wpcandidatos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpVacantes</ObjName>
+      <ObjDesc>Work With Vacantes</ObjDesc>
+      <ObjLink>wpvacantes.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpCandidatosVac</ObjName>
+      <ObjDesc>wp Candidatos</ObjDesc>
+      <ObjLink>wpcandidatosvac.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpPostulacionReclu</ObjName>
+      <ObjDesc>wp Candidatos</ObjDesc>
+      <ObjLink>wppostulacionreclu.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpReclutamiento</ObjName>
+      <ObjDesc>wp Reclutamiento</ObjDesc>
+      <ObjLink>wpreclutamiento.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpRecluSegUsu</ObjName>
+      <ObjDesc>wp Reclu Usuario</ObjDesc>
+      <ObjLink>wpreclusegusu.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>wpReclutamientoCord</ObjName>
+      <ObjDesc>wp Coordinador</ObjDesc>
+      <ObjLink>wpreclutamientocord.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>1</ObjCls>
+      <ObjName>Salir</ObjName>
+      <ObjDesc>Procedimiento que destruye sesion al salir</ObjDesc>
+      <ObjLink>asalir.aspx</ObjLink>
+   </Object>
+</Objects>
